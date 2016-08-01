@@ -1,3 +1,13 @@
+\subsection{\dots entropy \dots}
+
+\dots
+
+The learning problem was introduced in \cite{TheorRobopsy} where the main idea was to learn the transition rules of an unknown Turing machines from its known consecutive configurations.
+
+\dots
+
+If we use finite $configN$ configurations then the uncertainty of determining the applied rule between two consecutive configurations can appear during the operation of the learning machine $S$. This uncertainty can be considered as the entropy of the learning machine that can be eliminated easily by the configN++ based universal leraning machine shown in Fig. \ref{fig_ULM}.
+
 \cite{Turing}
 \cite{Neumann}
 \cite{TheorRobopsy}
@@ -6,5 +16,5 @@
 \begin{figure}[!h]
 \centering
 \scalebox{1}{\input{ULM}}
-\caption{This figure shows the architecture of a universal learning machine. The operation of the machine $S$ is based on the Lemma 3.2.1 of \cite{TheorRobopsy}. $R$ uses $configN$ configurations that is denoted by the parameter $N$ in the sequence of configurations ${\langle c^N_i\rangle}_T^x$. If a transition rule is not uniquely determined then $S$ halts and $R$ restarts the simulation of $T$ by using a larger size of configuration.\label{fig_ULM}}
+\caption{This figure shows the architecture of a universal learning machine called configN++ based universal leraning machine. The operation of the machine $S$ is based on the Lemma 3.2.1 of \cite{TheorRobopsy}. $R$ uses $configN$ configurations that is denoted by the parameter $N$ in the sequence of configurations ${\langle c^N_i\rangle}_T^x$. If a transition rule is not uniquely determined then $S$ halts and $R$ restarts the simulation of $T$ by using a larger size of configuration.\label{fig_ULM}}
 \end{figure}
